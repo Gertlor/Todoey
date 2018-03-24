@@ -32,7 +32,14 @@
                             <outlet property="delegate" destination="HSk-2T-6CU" id="7J5-Gp-5JN"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Todoey" id="Vxd-gh-fSE"/>
+                    <navigationItem key="navigationItem" title="Todoey" id="Vxd-gh-fSE">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="x8B-v9-2U8">
+                            <color key="tintColor" red="0.24390024220000001" green="0.58777940719999999" blue="0.79073325270000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="addButtonPressed:" destination="HSk-2T-6CU" id="2rS-JS-Nan"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="THM-cR-oog" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -48,7 +55,7 @@
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="1" green="0.64605958185999834" blue="0.42957652352522757" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <textAttributes key="titleTextAttributes">
-                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <color key="textColor" red="0.24390024224766776" green="0.58777940718005439" blue="0.79073325271472084" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
